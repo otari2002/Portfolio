@@ -17,6 +17,7 @@
 .titles{
   margin-left: 10%;
   color: #333;
+  font-size: 40px;
 }
 
 .intro{
@@ -25,10 +26,23 @@
   align-self: center;
 }
 
-.intro h3{
+.intro{
   font-family: 'Roboto Slab', serif;
+  font-size: 25px;
 }
 
 .image{
+  height: 300px;
+  width: 300px;
   border-radius: 10%;
+}
+
+@media (max-width:600px) {
+  .image{
+    height: 200px;
+    width: 200px;
+  }
+  .intro{
+    font-size: 20px;
+  }
 }

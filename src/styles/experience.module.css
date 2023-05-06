@@ -35,9 +35,11 @@
 
 .card{
     position: relative;
-    width: 25rem;
+    width: 400px;
     box-shadow: 3px 3px #333;
 }
+
+
 
 .cardDate{
     color: #333;
@@ -61,4 +63,25 @@
 .seperator{
     border-left: 3px solid #dee0e4;
     height: 5rem;
+}
+
+
+
+@media (max-width: 500px) {
+    .Experience{
+        background: linear-gradient(
+            to top,
+            #f1f1f1 0%,
+            #f1f1f1 94%,
+            rgb(255, 255, 255) 94%,
+            rgb(255, 255, 255) 100%
+        );
+    }
+    .title {
+        font-size: 60px;
+    }
+    .card{
+        width: 300px;
+        box-shadow: 1px 1px #333;
+    }
 }

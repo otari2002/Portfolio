@@ -78,3 +78,15 @@
     height: 20vh;
 }
 
+@media (max-width:500px){
+    .title {
+        font-size: 60px;
+        padding-bottom: 20px;
+    }
+    .inputName, .inputEmail, .inputMessage{
+        width: 300px;
+    }
+    .zoneOne, .zoneTwo{
+        margin-left: 40px;
+    }
+}
