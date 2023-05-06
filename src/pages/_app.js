@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import '@coreui/coreui/dist/css/coreui.min.css';
 import 'animate.css';
+import '../styles/backgroundColor.css';
 
 function MyApp({ Component, pageProps }) {
   return (

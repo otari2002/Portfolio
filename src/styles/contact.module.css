@@ -1,6 +1,6 @@
 .Contact{
-    height: 100vh;
     background: #f1f1f1;
+    padding-bottom: 80px;
 }
 
 .title {
@@ -16,30 +16,30 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .zoneOne, .zoneTwo{
     flex:1;
     flex-direction: column;
-    margin-left: 5rem;
+    margin-left: 80px;
 }
 
 .inputName, .inputEmail, .inputMessage{
     display: flex;
     flex-direction: column;
-    margin-bottom: 1rem;
-    width: 25rem;
+    margin-bottom: 16px;
+    width: 400px;
 }
 
 .zoneTwo input{
-    height: 2rem;
+    height: 32px;
     margin-top: 5px;
 }
 
 .inputMessage input{
-    height:10rem;
+    height:160px;
 }
 
 .submitButton button{

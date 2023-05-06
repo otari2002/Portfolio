@@ -28,9 +28,9 @@ export default function About(){
             </div>
             <div className={styles.zoneTwo}>
                 <div className={styles.story}><p>
-                I discovered the world of Computer Science when I was 12 years old, encouraged by my father to learn my first programming language Python.
-                I eventualy learned HTML, CSS and Javascript a few years later due to my studies and reached a high understanding of NodeJS.
-                <br/>In a school project, 
+                I discovered the world of Computer Science when I was 12 years old, encouraged by my father to learn my first programming language, Python.<br/>
+                I learned HTML, CSS and Javascript a few years later due to my studies, MySQL when I worked on a school project and ReactJS eventually which I used to build this website.
+                <br/><br/> 
                 </p></div>
                 <div className={styles.icons}>
                     {[JS,HTML,MYSQL,REACT,PYTHON].map((png)=><Image src={png} width={80} height={80}/>)}
