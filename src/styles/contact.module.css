@@ -38,6 +38,11 @@
     margin-top: 5px;
 }
 
+.inputTitle{
+    font-size: 20px;
+    font-weight:500;
+}
+
 .inputMessage input{
     height:160px;
 }

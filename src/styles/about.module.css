@@ -103,7 +103,9 @@
         font-size:30px;
     }
     .textZones{
-        flex-direction:column-reverse;
-        margin: 50px;
+        flex-direction: column-reverse;  
+    }
+    .zoneOne{
+        margin-top: 50px;
     }
 }

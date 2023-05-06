@@ -49,15 +49,15 @@ export default function Contact(){
                 <div className={styles.zoneTwo}>
                 <form ref={form} onSubmit={sendEmail}>
                     <div className={styles.inputName}>
-                        <label htmlFor="name"><h7>Your Name</h7></label>
+                        <label htmlFor="name"><p className={styles.inputTitle}>Your Name</p></label>
                         <input type="text" name="user_name" required />
                     </div>
                     <div className={styles.inputEmail}>
-                        <label htmlFor="email"><h7>Email</h7></label>
+                        <label htmlFor="email"><p className={styles.inputTitle}>Email</p></label>
                         <input type="email" name="user_email" required />
                     </div>
                     <div className={styles.inputMessage}>
-                        <label htmlFor="message"><h7>Message</h7></label>
+                        <label htmlFor="message"><p className={styles.inputTitle}>Message</p></label>
                         <textarea type="text" name="message" rows="7" required />
                     </div>
                     <div className={styles.submitButton}>

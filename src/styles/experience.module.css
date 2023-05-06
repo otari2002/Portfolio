@@ -44,6 +44,7 @@
 .cardDate{
     color: #333;
     position: absolute;
+    font-size: 23px;
     z-index: 1;
     top: -2rem;
     left: -2rem;
@@ -83,5 +84,8 @@
     .card{
         width: 300px;
         box-shadow: 1px 1px #333;
+    }
+    .cardDate{
+        font-size: 20px;
     }
 }

@@ -18,8 +18,8 @@ export default function About(){
             <div className={styles.zoneOne}>
                 <p><strong>Contact</strong></p>
                 <p>For any sort help/ enquiry , shoot a <Link href="/contact">mail</Link> and I'll get back.</p>
-                <p><strong>Job Opportunities</strong></p>
-                <p>I'm currently looking for a job. Iyou see me as good fit, check my <Link href="/">CV</Link> and I'd love to work for you.</p>
+                {/* <p><strong>Job Opportunities</strong></p>
+                <p>I'm currently looking for a job. If you see me as good fit, check my <Link href="/">CV</Link> and I'd love to work for you.</p> */}
                 <p><strong>Social Links</strong></p>
                 <div className={styles.links}>
                     <li><span><Link href="https://www.linkedin.com/in/omar-tahri-aa19231a3/" >LinkedIn </Link></span></li>

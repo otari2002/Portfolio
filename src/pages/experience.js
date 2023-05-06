@@ -6,7 +6,7 @@ export default function Experience(){
     function Card(props){
         return (
             <>
-            <h3 className={styles.cardDate}>{props.src.date}</h3>
+            <p className={styles.cardDate}><strong>{props.src.date}</strong></p>
             <CCard>
             <CCardBody>
                 <CCardTitle>{props.src.title}</CCardTitle>
