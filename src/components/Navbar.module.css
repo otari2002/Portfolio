@@ -1,0 +1,41 @@
+.header {
+    background-color: #333;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav li {
+    display:inline-block;
+    margin-right: 25px;
+}
+
+.nav li p {
+    color: #fff;
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 25px;
+    text-transform: uppercase;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+}
+
+.details h4{
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.details h6{
+    color: grey;
+}

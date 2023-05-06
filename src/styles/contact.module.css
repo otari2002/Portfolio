@@ -1,0 +1,80 @@
+.Contact{
+    height: 100vh;
+    background: #f1f1f1;
+}
+
+.title {
+    font-size: 70px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'sans-serif';
+    color: #333;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.zoneOne, .zoneTwo{
+    flex:1;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.inputName, .inputEmail, .inputMessage{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    width: 25rem;
+}
+
+.zoneTwo input{
+    height: 2rem;
+    margin-top: 5px;
+}
+
+.inputMessage input{
+    height:10rem;
+}
+
+.submitButton button{
+    background-color: #3883f6;
+    color: white;
+    font-size: 15px;
+    padding: 5px 40px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.zoneOne{
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+}
+
+.paddZero{
+    margin-top: 0px;
+    direction: ltr;
+    margin-left: 20px;
+}
+.iconsContent{
+    display: flex;
+    margin-top: 5%;
+}
+.iconsContent li p{
+    padding-top: 0%;
+}
+.msgContent{
+    height: 20vh;
+}
+

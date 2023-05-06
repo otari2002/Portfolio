@@ -1,0 +1,21 @@
+[
+    {
+        "title": "University",
+        "detail": "ENSET",
+        "comment": "Curretly, I'm a Big Data and Cloud Computing Engineering student",
+        "date": "2022-2025"
+    },
+    {
+        "title": "CPGE",
+        "detail": "Elbilia SUP",
+        "comment": "These were the two hardest years of study in my life, yet also very rewarding.",
+        "date": "2020-2022"
+    },
+    {
+        "title": "High-school",
+        "detail": "EPAMM",
+        "comment": "I got a \"Sciences Mathematiques\" Baccalaureate with \"Very Good\" mention",
+        "date": "2017-2020"
+    }
+    
+]
