@@ -14,7 +14,7 @@ export default function Navbar() {
           <li><h4>Omar Tahri</h4></li>
           <li><h6>Full-Stack Developer</h6></li>
         </div>
-        <div>
+        <div className={styles.pages}>
         {navLinks.map((link, index) => {
             return (
               <li key={index}>
@@ -25,7 +25,7 @@ export default function Navbar() {
             );
         })}
         </div>
-        <div>
+        <div className={styles.links}>
           <li><Link href="https://www.linkedin.com/in/omar-tahri-aa19231a3/" ><AiFillLinkedin color="white" size={26} /></Link></li>
           <li><Link href="https://github.com/otari2002" ><AiFillGithub color="white" size={26} /></Link></li>
         </div>

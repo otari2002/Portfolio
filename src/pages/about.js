@@ -33,7 +33,7 @@ export default function About(){
                 <br/><br/> 
                 </p></div>
                 <div className={styles.icons}>
-                    {[JS,HTML,MYSQL,REACT,PYTHON].map((png)=><Image src={png} width={80} height={80}/>)}
+                    {[JS,HTML,MYSQL,REACT,PYTHON].map((png)=><Image src={png} width={80} height={80} className={styles.icon}/>)}
                 </div>
             </div>
         </div>

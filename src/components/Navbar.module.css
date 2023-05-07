@@ -16,6 +16,14 @@
     margin-right: 25px;
 }
 
+.nav .pages li {
+    margin-top: 10px;
+}
+
+.nav .links li {
+    margin-top: 20px;
+}
+
 .nav li p {
     color: #fff;
     display: inline;
@@ -38,4 +46,8 @@
 
 .details h6{
     color: grey;
+}
+
+.pages{
+
 }

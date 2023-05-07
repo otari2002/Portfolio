@@ -27,8 +27,8 @@
 
 .textZones{
     display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 60px;
+    margin-right: 60px;
     flex-direction:row;
     justify-content: center;
 }
@@ -86,6 +86,10 @@
     margin-top: 20px;
 }
 
+.icon{
+    margin: 8px;
+}
+
 @media (max-width:600px){
     .About{
         background: linear-gradient(
@@ -104,8 +108,12 @@
     }
     .textZones{
         flex-direction: column-reverse;  
+        margin-left: 40px;
+        margin-right: 40px;
     }
     .zoneOne{
         margin-top: 50px;
+        padding-right: 0px;
     }
+    
 }
